@@ -1,4 +1,4 @@
-# ben-than-art
+# ben-thanh-art
 
 way to access the website:
 
