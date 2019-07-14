@@ -1,0 +1,23 @@
+header {
+  background-size: cover;
+  width: 95%;
+  margin-left: 2.5%;
+  height: 70vh;
+  background-image: url(images/exhibitions.jpg);
+  background-size: 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+#exhibs {
+  height: auto;
+}
+
+#exhibs h2 {
+  padding-bottom: 20px;
+}
+
+#exhibs a {
+  line-height: 2em;
+  font-size: 16px;
+}

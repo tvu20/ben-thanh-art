@@ -1,0 +1,10 @@
+header {
+  background-size: cover;
+  width: 95%;
+  margin-left: 2.5%;
+  height: 70vh;
+  background-image: url(images/about.jpg);
+  background-size: 100%;
+  background-position: center 20%;
+  background-repeat: no-repeat;
+}

@@ -1,0 +1,25 @@
+header {
+  background-size: cover;
+  width: 95%;
+  margin-left: 2.5%;
+  height: 70vh;
+  background-image: url(images/publishing.jpg);
+  background-size: 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+
+#publish {
+  height: auto;
+  width: 100vh;
+}
+
+#publish h2 {
+  padding-bottom: 5%;
+}
+
+#publish img {
+  width: 150vh;
+  padding-left: 10%;
+}

@@ -1,0 +1,159 @@
+/* MAIN SITE */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    background-color: white;
+}
+
+section {
+  height: 100vh;
+}
+
+/* HERO */
+
+html, body {
+  height: 100%;
+  font-family: 'PT Sans', sans-serif !important;
+  -webkit-font-smoothing: antialiased;
+  margin: 0;
+}
+
+.nav-controls a:visited {
+  color: inherit;
+  text-decoration: none;
+}
+
+header {
+  background-size: cover;
+  width: 95%;
+  margin-left: 2.5%;
+  height: 85vh;
+  background-image: url(images/main-page.jpg);
+  background-position: center 10%;
+  background-repeat: no-repeat;
+}
+
+.nav-container {
+  z-index: 3001;
+  height: 58px;
+  width: 100%;
+  color: white;
+  letter-spacing: 0.025em;
+  transition: background-color 0.2s linear;
+  text-decoration: none;
+  padding-bottom: 20px;
+  text-transform: uppercase;
+}
+
+.nav-container .nav-row {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  padding-right: 25px;
+  padding-left: 20px;
+  padding-top: 18px;
+}
+.nav-container .nav-row .nav-logo {
+  display: inline-block;
+  margin-top: 5px;
+  margin-left: 0;
+}
+
+#logo {
+  font-size: 30px;
+  font-weight: bolder !important;
+  font-family: 'PT Sans Narrow', sans-serif;
+}
+
+.nav-container .nav-row .nav-logo a {
+  text-decoration: none;
+}
+
+.nav-container .nav-row .nav-controls {
+  float: right;
+  text-decoration: none;
+  margin: 15px auto;
+}
+
+.nav-container .nav-row .nav-controls a {
+  padding-left: 20px;
+  font-size: 12px;
+  text-decoration: none;
+  color: #1f1f1f;
+}
+
+.nav-container .nav-row .nav-controls a:hover{
+  color: #9e1818;
+  font-weight: bold;
+  font-size: 13px;
+}
+
+.selected {
+  color: #9e1818 !important;
+  font-weight: bold;
+}
+
+
+
+#arrow {
+  position: absolute;
+  left: 49%;
+  bottom: 10%;
+}
+
+/* info sections */
+
+.infosection {
+  padding: 50px;
+  padding-top: 80px;
+  height: 70vh;
+}
+
+.infosection h2 {
+  text-transform: uppercase;
+}
+
+.infosection p {
+  padding-top: 20px;
+}
+
+
+
+
+/* footer */
+
+footer {
+  height: 200px;
+}
+
+footer table {
+  padding: 2%;
+  padding-left: 5%;
+}
+
+footer td {
+
+  line-height: 1.5em;
+  width: 40%;
+}
+footer p, a {
+  color: #3b3b3b;
+  font-size: 12px;
+}
+
+#online {
+  vertical-align: top;
+}
+
+#online a {
+  text-decoration: none;
+}
